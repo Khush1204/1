@@ -1,1 +1,1 @@
-web: sh start.sh
+web: gunicorn --worker-class eventlet -w 1 pythonanywhere_app:app
