@@ -1,0 +1,10 @@
+Flask==3.0.0
+python-socketio==5.10.0
+eventlet==0.35.1
+python-engineio==4.8.1
+Werkzeug==3.0.1
+python-dotenv==1.0.0
+bidict>=0.21.0
+dnspython>=1.15.0
+greenlet>=0.3
+gunicorn==21.2.0
