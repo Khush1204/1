@@ -1,4 +1,4 @@
 #!/bin/bash
 pip install -r requirements.txt
 mkdir -p static/uploads
-python pythonanywhere_app.py
+gunicorn --worker-class eventlet -w 1 pythonanywhere_app:app
